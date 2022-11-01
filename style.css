@@ -1,17 +1,14 @@
 body{
-    display: flex;
-    justify-content: center;
-    background-color: black;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 #container{
     display: grid;
-    margin-top: 200px;
-    grid-template-columns: repeat(16,auto);
-    background-color: black;
+    max-width: 960px;
+    /*grid-template-columns: repeat(10,auto);*/
 }
 div{
-    border: 1px solid white;
-    color: white;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
 }
